@@ -61,6 +61,8 @@ public class AuthorizationServerConfig {
 	@Autowired
 	private UserDetailsService userDetailsService;
 
+	private static RSAPublicKey rsaPublicKey;
+
 	@Bean
 	@Order(2)
 	public SecurityFilterChain asSecurityFilterChain(HttpSecurity http) throws Exception {
@@ -172,6 +174,7 @@ public class AuthorizationServerConfig {
 	private static RSAKey generateRsa() {
 		KeyPair keyPair = generateRsaKey();
 		RSAPublicKey publicKey = (RSAPublicKey) keyPair.getPublic();
+		rsaPublicKey = publicKey;
 		RSAPrivateKey privateKey = (RSAPrivateKey) keyPair.getPrivate();
 		return new RSAKey.Builder(publicKey).privateKey(privateKey).keyID(UUID.randomUUID().toString()).build();
 	}
@@ -186,5 +189,9 @@ public class AuthorizationServerConfig {
 			throw new IllegalStateException(ex);
 		}
 		return keyPair;
+	}
+
+	public RSAPublicKey getRsaPublicKey() {
+		return rsaPublicKey;
 	}
 }

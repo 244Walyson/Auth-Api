@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c264c50-8ed6-4245-adab-940297fbf338" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/AuthApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/AuthApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/entities/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/projections/UserDetailsProjection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/services/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/services/exceptions/DatabaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/services/exceptions/ForbiddenException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/services/exceptions/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/util/CustonUserUtil.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2dWZ2xLYl5JucYKXWP9sHyCZlPx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AuthApiApplication (1).executor": "Run",
+    "Application.AuthApiApplication.executor": "Run",
+    "Application.AuthApiApplicationclient.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/waly/Projects/Auth-API microservices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AuthApiApplication (1)">
+    <configuration name="AuthApiApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.waly.authAPI.AuthApiApplication" />
+      <module name="auth-API (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.waly.authAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.waly.authAPI.AuthApiApplication" />
+      <module name="auth-API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.waly.authAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApiApplicationclient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.waly.authAPI.AuthApiApplicationclient" />
+      <module name="auth-API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.waly.authAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthApiApplication (1)" />
+        <item itemvalue="Application.AuthApiApplication" />
+        <item itemvalue="Application.AuthApiApplicationclient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c264c50-8ed6-4245-adab-940297fbf338" name="Changes" comment="" />
+      <created>1710125592808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710125592808</updated>
+    </task>
+    <servers />
+  </component>
+</project>

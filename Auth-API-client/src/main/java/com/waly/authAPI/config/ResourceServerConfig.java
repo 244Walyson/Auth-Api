@@ -68,6 +68,11 @@ public class ResourceServerConfig {
 	}
 
 	@Bean
+	public JwtDecoder jwtDecoder() {
+		return NimbusJwtDecoder.withJwkSetUri("http://localhost:8080/.well-known/jwks.json").build();
+	}
+
+	@Bean
 	CorsConfigurationSource corsConfigurationSource() {
 
 		String[] origins = corsOrigins.split(",");
