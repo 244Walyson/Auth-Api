@@ -8,6 +8,7 @@ import com.nimbusds.jose.jwk.RSAKey;
 import com.nimbusds.jose.jwk.source.JWKSource;
 import com.nimbusds.jose.proc.SecurityContext;
 import com.waly.authAPI.config.AuthorizationServerConfig;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.security.interfaces.RSAPublicKey;
 import java.util.Map;
 
+@Slf4j
 @RestController
 public class JwkController {
 
@@ -23,12 +25,10 @@ public class JwkController {
 
     @GetMapping(value = "/.well-known/jwks.json")
     public Map<String, Object> getJwks() throws JOSEException {
-        RSAPublicKey publicKey = authorizationServer.getRsaPublicKey();
+        RSAKey rsaKeyy = authorizationServer.getRsaKey();
 
-        RSAKey rsaKey = new RSAKey.Builder(publicKey)
-                .keyUse(KeyUse.SIGNATURE)
-                .build();
-        JWKSet jwkSet = new JWKSet(rsaKey);
+        log.info("aaaaaaaaaaaaaaaaaaaaaaaaaaaa" + rsaKeyy.toString());
+        JWKSet jwkSet = new JWKSet(rsaKeyy);
         return jwkSet.toJSONObject();
     }
 

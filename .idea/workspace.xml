@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c264c50-8ed6-4245-adab-940297fbf338" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/AuthApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/AuthApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API-client/src/main/java/com/waly/authAPI/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API-client/src/main/java/com/waly/authAPI/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API-client/src/main/java/com/waly/authAPI/controllers/JwkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API-client/src/main/java/com/waly/authAPI/controllers/JwkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/config/ResourceServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/controllers/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/dto/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/entities/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/entities/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/projections/UserDetailsProjection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/repositories/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/services/AuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/services/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/services/exceptions/DatabaseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/services/exceptions/ForbiddenException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/services/exceptions/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/util/CustonUserUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/controllers/JwkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-API/src/main/java/com/waly/authAPI/controllers/JwkController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

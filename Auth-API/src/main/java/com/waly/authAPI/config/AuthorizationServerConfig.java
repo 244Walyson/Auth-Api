@@ -61,7 +61,7 @@ public class AuthorizationServerConfig {
 	@Autowired
 	private UserDetailsService userDetailsService;
 
-	private static RSAPublicKey rsaPublicKey;
+	private static RSAKey rsaKey;
 
 	@Bean
 	@Order(2)
@@ -167,6 +167,7 @@ public class AuthorizationServerConfig {
 	@Bean
 	public JWKSource<SecurityContext> jwkSource() {
 		RSAKey rsaKey = generateRsa();
+		this.rsaKey = rsaKey;
 		JWKSet jwkSet = new JWKSet(rsaKey);
 		return (jwkSelector, securityContext) -> jwkSelector.select(jwkSet);
 	}
@@ -174,7 +175,6 @@ public class AuthorizationServerConfig {
 	private static RSAKey generateRsa() {
 		KeyPair keyPair = generateRsaKey();
 		RSAPublicKey publicKey = (RSAPublicKey) keyPair.getPublic();
-		rsaPublicKey = publicKey;
 		RSAPrivateKey privateKey = (RSAPrivateKey) keyPair.getPrivate();
 		return new RSAKey.Builder(publicKey).privateKey(privateKey).keyID(UUID.randomUUID().toString()).build();
 	}
@@ -191,7 +191,7 @@ public class AuthorizationServerConfig {
 		return keyPair;
 	}
 
-	public RSAPublicKey getRsaPublicKey() {
-		return rsaPublicKey;
+	public RSAKey getRsaKey() {
+		return rsaKey;
 	}
 }
